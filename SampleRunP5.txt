@@ -1,0 +1,790 @@
+Programmer:        type your name here!!!!!!
+Course:            COSC 311,  F '22
+Project:           5
+Due date:          12-6-22
+
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 3
+Create the random access file first!
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbm
+Create the random access file first
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 4
+Build index first!
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 5
+Build index first!
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 6
+Build index first!
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 7
+Build index first!
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 8
+Build index first!
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 1
+Enter an input file name: student.txt
+student.txt (No such file or directory)
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 1
+Enter an input file name: students.txt
+Enter an output file name: dbm
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbm
+Tom                 Wiely               1234      3.76      
+Mike                Johnson             1111      2.78      
+Alex                Shafer              3333      4.0       
+Nancy               Koffman             4444      3.56      
+Karen               Thomson             2222      3.2       
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):n
+Sara                Dorthy              9999      1.79      
+Adam                Nelson              7777      2.7       
+Kate                Peterson            6666      3.5       
+Carla               Howard              3325      3.9       
+Ben                 Jones               5555      2.42      
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):A
+Dan                 Fuhr                1156      3.97      
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 4
+Build index first!
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 3
+Enter the random access file name: dbm
+Index was built successfully!
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 4
+Enter the starting index (0-36): 
+Enter the ending index (0-36): 
+ 7: (1234,0)  
+(3333,2)  
+ 9: (4444,3)  
+10: (1156,10)  
+11: (2222,4)  
+12: (7777,6)  
+16: (5555,9)  
+21: (1111,1)  
+29: (3325,8)  
+30: (9999,5)  
+(6666,7)  
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 4
+Enter the starting index (0-36): 10
+Enter the ending index (0-36): 30
+10: (1156,10)  
+11: (2222,4)  
+12: (7777,6)  
+16: (5555,9)  
+21: (1111,1)  
+29: (3325,8)  
+30: (9999,5)  
+(6666,7)  
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 5
+Enter a student ID : 2255
+2255 is an invalid ID
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 5
+Enter a student ID : 1234
+Tom                 Wiely               1234      3.76      
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 5
+Enter a student ID : 6666
+Kate                Peterson            6666      3.5       
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 6
+Enter a student ID : 5566
+5566 is an invalid ID
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 6
+Enter a student ID : 6666
+Kate                Peterson            6666      3.5       
+
+1- Change the first name: 
+2- Change the last name: 
+3- Change GPA: 
+4- Done: 
+Enter your choice: 1
+Enter first name: Cathy
+
+1- Change the first name: 
+2- Change the last name: 
+3- Change GPA: 
+4- Done: 
+Enter your choice: 3
+Enter GPA: 4.0
+
+1- Change the first name: 
+2- Change the last name: 
+3- Change GPA: 
+4- Done: 
+Enter your choice: 4
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbm
+Tom                 Wiely               1234      3.76      
+Mike                Johnson             1111      2.78      
+Alex                Shafer              3333      4.0       
+Nancy               Koffman             4444      3.56      
+Karen               Thomson             2222      3.2       
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):a
+Sara                Dorthy              9999      1.79      
+Adam                Nelson              7777      2.7       
+Cathy               Peterson            6666      4.0       
+Carla               Howard              3325      3.9       
+Ben                 Jones               5555      2.42      
+Dan                 Fuhr                1156      3.97      
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 4
+Enter the starting index (0-36): 0
+Enter the ending index (0-36): 
+ 7: (1234,0)  
+(3333,2)  
+ 9: (4444,3)  
+10: (1156,10)  
+11: (2222,4)  
+12: (7777,6)  
+16: (5555,9)  
+21: (1111,1)  
+29: (3325,8)  
+30: (9999,5)  
+(6666,7)  
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 7
+Enter first name: Tom
+Enter last name: Lipsky
+Enter ID: 5566
+Enter GPA: 3.99
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbm
+Tom                 Wiely               1234      3.76      
+Mike                Johnson             1111      2.78      
+Alex                Shafer              3333      4.0       
+Nancy               Koffman             4444      3.56      
+Karen               Thomson             2222      3.2       
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):a
+Sara                Dorthy              9999      1.79      
+Adam                Nelson              7777      2.7       
+Cathy               Peterson            6666      4.0       
+Carla               Howard              3325      3.9       
+Ben                 Jones               5555      2.42      
+Dan                 Fuhr                1156      3.97      
+Tom                 Lipsky              5566      3.99      
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 4
+Enter the starting index (0-36): 
+Enter the ending index (0-36): 
+ 7: (1234,0)  
+(3333,2)  
+ 9: (4444,3)  
+10: (1156,10)  
+11: (2222,4)  
+12: (7777,6)  
+16: (5555,9)  
+21: (1111,1)  
+25: (5566,11)  
+29: (3325,8)  
+30: (9999,5)  
+(6666,7)  
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 7
+Enter first name: Sam
+Enter last name: Hartly
+Enter ID: 5566
+Enter GPA: 4.0
+Duplicate ID - TRY AGAIN
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 7
+Enter first name: Sam
+Enter last name: Hartly
+Enter ID: 7766
+Enter GPA: 3.8
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbm
+Tom                 Wiely               1234      3.76      
+Mike                Johnson             1111      2.78      
+Alex                Shafer              3333      4.0       
+Nancy               Koffman             4444      3.56      
+Karen               Thomson             2222      3.2       
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):A
+Sara                Dorthy              9999      1.79      
+Adam                Nelson              7777      2.7       
+Cathy               Peterson            6666      4.0       
+Carla               Howard              3325      3.9       
+Ben                 Jones               5555      2.42      
+Dan                 Fuhr                1156      3.97      
+Tom                 Lipsky              5566      3.99      
+Sam                 Hartly              7766      3.8       
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 4
+Enter the starting index (0-36): 
+Enter the ending index (0-36): 
+ 7: (1234,0)  
+(3333,2)  
+ 9: (4444,3)  
+10: (1156,10)  
+11: (2222,4)  
+12: (7777,6)  
+16: (5555,9)  
+21: (1111,1)  
+25: (5566,11)  
+29: (3325,8)  
+30: (9999,5)  
+(6666,7)  
+(7766,12)  
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 7
+Enter first name: Cathy
+Enter last name: Harlan
+Enter ID: 8866
+Enter GPA: 2.0
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbm
+Tom                 Wiely               1234      3.76      
+Mike                Johnson             1111      2.78      
+Alex                Shafer              3333      4.0       
+Nancy               Koffman             4444      3.56      
+Karen               Thomson             2222      3.2       
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):a
+Sara                Dorthy              9999      1.79      
+Adam                Nelson              7777      2.7       
+Cathy               Peterson            6666      4.0       
+Carla               Howard              3325      3.9       
+Ben                 Jones               5555      2.42      
+Dan                 Fuhr                1156      3.97      
+Tom                 Lipsky              5566      3.99      
+Sam                 Hartly              7766      3.8       
+Cathy               Harlan              8866      2.0       
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 4
+Enter the starting index (0-36): 
+Enter the ending index (0-36): 
+ 7: (1234,0)  
+(3333,2)  
+ 9: (4444,3)  
+10: (1156,10)  
+11: (2222,4)  
+12: (7777,6)  
+16: (5555,9)  
+21: (1111,1)  
+25: (5566,11)  
+(8866,13)  
+29: (3325,8)  
+30: (9999,5)  
+(6666,7)  
+(7766,12)  
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 8
+Enter a student ID : 2255
+2255 is an invalid ID
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 8
+Enter a student ID : 2222
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 5
+Enter a student ID : 2222
+2222 is an invalid ID
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 2
+Enter the random access file name: dbm
+Tom                 Wiely               1234      3.76      
+Mike                Johnson             1111      2.78      
+Alex                Shafer              3333      4.0       
+Nancy               Koffman             4444      3.56      
+Sara                Dorthy              9999      1.79      
+
+Enter N (for next 5 records), A (for all remaining records), M(for main menu):a
+Adam                Nelson              7777      2.7       
+Cathy               Peterson            6666      4.0       
+Carla               Howard              3325      3.9       
+Ben                 Jones               5555      2.42      
+Dan                 Fuhr                1156      3.97      
+Tom                 Lipsky              5566      3.99      
+Sam                 Hartly              7766      3.8       
+Cathy               Harlan              8866      2.0       
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 4
+Enter the starting index (0-36): 
+Enter the ending index (0-36): 
+ 7: (1234,0)  
+(3333,2)  
+ 9: (4444,3)  
+10: (1156,10)  
+12: (7777,6)  
+16: (5555,9)  
+21: (1111,1)  
+25: (5566,11)  
+(8866,13)  
+29: (3325,8)  
+30: (9999,5)  
+(6666,7)  
+(7766,12)  
+
+   Menu   
+   ====
+1: Make a random-access file
+2: Display a random-access file
+3: Build the index
+4: Display the index
+5: Retrieve a record
+6: Modify a record
+7: Add a record
+8: Delete a record
+9: Exit
+
+Enter your choice: 9
+ 7: (1234,0)  (3333,2)  
+ 9: (4444,3)  
+10: (1156,10)  
+12: (7777,6)  
+16: (5555,9)  
+21: (1111,1)  
+25: (5566,11)  (8866,13)  
+29: (3325,8)  
+30: (9999,5)  (6666,7)  (7766,12)  
+Exiting the database management system
